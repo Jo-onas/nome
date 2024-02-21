@@ -1,0 +1,14 @@
+.container{
+    display: grid;
+    grid-template-columns: 150px 150px 150px;
+    grid-template-rows: 200px 200px;
+    grid-gap: 4px;
+}
+
+.container div{
+    background-color: rgb(69, 69, 255);
+}
+
+.container div:nth-child(even){
+    background-color: aqua;
+}
